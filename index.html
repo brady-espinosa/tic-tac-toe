@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tictactoe.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <table>
+      <tr>
+        <td id="cell0" class="bb br" onclick="gameState.makePlay(0)"></td>
+        <td id="cell1" class="br bb bl" onclick="gameState.makePlay(1)"></td>
+        <td id="cell2" class="bb bl" onclick="gameState.makePlay(2)"></td>
+      </tr>
+      <tr>
+        <td id="cell3" class="bt br bb" onclick="gameState.makePlay(3)"></td>
+        <td id="cell4" class="bt br bb bl" onclick="gameState.makePlay(4)"></td>
+        <td id="cell5" class="bt bb bl" onclick="gameState.makePlay(5)"></td>
+      </tr>
+      <tr>
+        <td id="cell6" class="bt br" onclick="gameState.makePlay(6)"></td>
+        <td id="cell7" class="bt br bl" onclick="gameState.makePlay(7)"></td>
+        <td id="cell8" class="bt bl" onclick="gameState.makePlay(8)"></td>
+      </tr>
+
+    </table>
+
+    <h2 id="winner"></h2>
+    <p id="p1Score"></p>
+    <p id="p2Score"></p>
+    <button name= "button" type= "button" onclick="gameState.resetBoard()"> Play Again </button>
+
+
+
+
+  </body>
+</html>

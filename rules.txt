@@ -1,0 +1,10 @@
+YES - stores state in javascript
+YES - will alternate players, with X always going first
+YES - will show a winner if one exists
+YES - will keep track of winner counts
+YES - will have a button to restart the game at any point
+YES - will not count a restarted game toward the game count
+YES - will not allow you to click on a square that is used
+
+YES - will not allow you to click on any squares once a winner is determined
+YES - will show "Cats Game" if there are no more moves
